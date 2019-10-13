@@ -23,11 +23,12 @@
 .banner .banner-img{
 	position: relative;
 	width: 100%;
-	height: 470px;
+	height: 800px;
 }
 .banner .banner-img img{
 	position: absolute;
 	width: 100%;
+	height: 800px;
 	margin: auto 0;
 }
 .banner .msg{
@@ -39,10 +40,12 @@
 .msg1 input,.msg2 input,.msg3 input,.msg4 textarea{
 	width: 80%;
 	margin-bottom: 20px;
+	height: 30px;
 	background-color: transparent;
 }
 .msg5 button{
 	margin-left: 25%;
+	height: 30px;
 	background-color: transparent;
 }
 ::-webkit-input-placeholder { /* WebKit browsers */
@@ -56,4 +59,60 @@
 }
 :-ms-input-placeholder { /* Internet Explorer 10+ */
     color:    white;
+}
+.about{
+	position: relative;
+	border:2px solid red;
+	width: 70%;
+	height: 500px;
+	margin: 20px 15%;
+}
+.content-one{
+	position: absolute;
+	/*border:2px solid red;
+	width: 70%;
+	margin: 20px 15%;*/
+}
+.content-one .title1 h1{
+	text-align: center;
+}
+.content-one .title1 span{
+	border-bottom: 2px solid #00FFFF;
+}
+.content-one .conent1{
+	width: 50%;
+	margin: auto 25%;
+	/*border: 1px solid red;*/
+}
+.content-one .content2{
+	float: left;
+	margin-top: 25px;
+	width: 25%;
+}
+.content-one .img1 img{
+	float: left;
+	margin-top: 25px;
+	width: 50%;
+}
+.content-one .counts-sf{
+	float: left;
+	margin-top: 25px;
+	width: 25%;
+}
+.content-one .counts-sf li{
+	border: 1px solid #00FFFF;
+	margin-bottom: 20px;
+	list-style: none;
+}
+.content-one .counts-sf h3,.content-one .counts-sf h4{
+	text-align: center;
+}
+.content-one .counts-sf span{
+	border-bottom: 2px solid #00FFFF;
+}
+.content-one-other{
+	position: absolute;
+	border: 1px solid red;
+	width: 40%;
+	bottom:10%; 
 }
