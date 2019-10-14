@@ -1,5 +1,6 @@
 *{
 	margin: 0;
+	padding: 0
 }
 .header{
 	height:52px;
@@ -62,9 +63,9 @@
 }
 .about{
 	position: relative;
-	border:2px solid red;
+	/*border:2px solid red;*/
 	width: 70%;
-	height: 500px;
+	height: 620px;
 	margin: 20px 15%;
 }
 .content-one{
@@ -87,21 +88,25 @@
 .content-one .content2{
 	float: left;
 	margin-top: 25px;
-	width: 25%;
+	width: 20%;
+	text-align: center;
+	font-size: 25px;
 }
 .content-one .img1 img{
 	float: left;
 	margin-top: 25px;
-	width: 50%;
+	width: 60%;
 }
 .content-one .counts-sf{
 	float: left;
 	margin-top: 25px;
-	width: 25%;
+	width: 20%;
 }
 .content-one .counts-sf li{
 	border: 1px solid #00FFFF;
 	margin-bottom: 20px;
+	width: 100%;
+	line-height: 60px;
 	list-style: none;
 }
 .content-one .counts-sf h3,.content-one .counts-sf h4{
@@ -112,7 +117,98 @@
 }
 .content-one-other{
 	position: absolute;
-	border: 1px solid red;
+	border: 1px solid #CCCCCC;
+	background-color: rgb(192,192,192,0.4);
+	height: 50%;
 	width: 40%;
 	bottom:10%; 
+}
+.content-two{
+	width: 100%;
+	height: 800px;
+}
+.content-two li{
+	list-style: none;
+}
+.content-two .li2{
+	width: 50%;
+	height: 396px;
+	float: left;
+}
+.content-two .img2{
+	float: left;
+	width: 50%;
+	height: 100%;
+	/*border: 1px solid red;*/
+}
+.content-two .img2 img{
+	width: 100%;
+	height: 100%;
+}
+.content-two .img2-msg1{
+	float: left;
+	/*border: 1px solid red;*/
+	background-color: #00FFFF;
+	width: 50%;
+	height: 100%;
+}
+.content-two .img2-msg1 .msg1-type{
+	margin: 10%;
+	color: white;
+}
+.content-two .img2-msg1 .msg1-type button{
+	background-color: black;
+	color: white;
+	height: 60px;
+	width: 40%;
+	margin-left: 30%;
+}
+.content-three{
+	/*border: 1px solid red;*/
+	margin-top: 20px;
+	width: 100%;
+	height: 650px;
+}
+.content-three .title3 h1{
+	text-align: center;
+}
+.content-three .title3 span{
+	border-bottom: 2px solid #00FFFF;
+}
+.content-three .content3{
+	width: 50%;
+	margin: 20px 25%;
+}
+.content-three .lists{
+	width: 80%;
+	margin-left: 10%;
+}
+.content-three .lists li{
+	list-style: none;
+	position: relative;
+	float: left;
+	width: 30%;
+	height: 240px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	/*border: 1px solid green;*/
+}
+.content-three .lists .li3 .img3 img{
+	position: absolute;
+	width: 100%;
+	height: 240px;
+}
+.content-three .lists .li3 .lab3{
+	position: absolute;
+	bottom: 0px;
+	background-color: black;
+	width: 100%;
+	color: white;
+}
+.footer p{
+	background-color: #00FFFF;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
 }
